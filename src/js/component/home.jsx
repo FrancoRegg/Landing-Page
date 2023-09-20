@@ -12,7 +12,7 @@ const Home = () => {
 	return (
 		<div className="container-fluid p-0 ">
 			<NavBar />
-			<div className="container w-60 mb-5 ">
+			<div className="container w-60 py-5">
 				< Jumbotron />
 				<div className="row d-flex justify-content-between mt-4">
 				<div className="col-sm-12 col-md-3 mt-4">
