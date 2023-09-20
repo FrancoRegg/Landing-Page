@@ -1,17 +1,13 @@
 import React from 'react';
 
 const Jumbotron = () => {
-
   return(
-  <div className='jumbotron bg-light pb-5 px-5'>
-    <h1>Hello, world!</h1>
-    <p>
-      This is a simple hero unit, a simple jumbotron-style component for calling
-      extra attention to featured content or information.
-    </p>
-    <p>
-      <Button bsStyle="primary">Learn more</Button>
-    </p>
+  <div className="container-fluid bg-light text-dark pb-5 px-5">
+    <div className="container">
+      <h1 className="display-4 py-2">Welcome to my Website</h1>
+      <p className="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id, esse sunt enim tenetur nulla repellat optio. Sint a dolorem quibusdam ea, tempora ut pariatur obcaecati odit quasi praesentium perferendis! </p>
+      <a href="#" className="btn btn-primary py-2">Call to action!</a>
+    </div>
   </div>
   )
 };
