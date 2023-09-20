@@ -10,11 +10,10 @@ import Footer from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container-fluid p-0 mb-2">
+		<div className="container-fluid p-0 ">
 			<NavBar />
-			<div className="container w-60 mt-3 pt-5">
+			<div className="container w-60 mb-5 ">
 				< Jumbotron />
-
 				<div className="row d-flex justify-content-between mt-4">
 				<div className="col-sm-12 col-md-3 mt-4">
 						<Card text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Aliquet lectus proin nibh nisl condimentum id venenatis a."} imageURL={"https://picsum.photos/500/400"}/>
@@ -31,10 +30,11 @@ const Home = () => {
 					<div className="col-sm-12 col-md-3 mt-4">
 						<Card text={"Consequat id porta nibh venenatis cras sed felis eget. Egestas erat imperdiet sed euismod. Nunc sed id semper risus. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc."} imageURL={"https://picsum.photos/500/400"}/>
 					</div>
-					
 				</div>
 			</div>
-
+			<div className="footer footer-expand-lg bg-dark footer-dark py-2">
+				< Footer />
+			</div>
 		</div>
 
 

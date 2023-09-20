@@ -4,7 +4,7 @@ import React from "react";
 const NavBar = () => {
   return (
   <nav className="navbar navbar-expand-lg bg-dark py-3 navbar-dark">
-    <div className="container d-flex justify-content-between w-60">
+    <div className="container d-flex justify-content-between">
 
       <a className="navbar-brand fs-3 text-white" href="#">Start Bootstrap</a>
 
